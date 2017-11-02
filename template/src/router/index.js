@@ -6,8 +6,8 @@ Vue.use(Router){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 export default new Router({
   routes: [{
-      path: '/',
-      name: 'Hello',
-      component: HelloWorld{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
-    }{{#if_eq lintConfig "airbnb"}},{{/if_eq}}]{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
+    path: '/',
+    name: 'Hello',
+    component: HelloWorld{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
+  }]{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
 }){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
