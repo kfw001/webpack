@@ -5,7 +5,7 @@ axios.defaults.baseURL = baseURL[env]{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 // api list key for value[ajax link]
 export const api = {}{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 // Http for axios
-export default class Http {
+export default class {
   // method get
   // data to server
   // @URL String 配置的URL名称或者完整的url
