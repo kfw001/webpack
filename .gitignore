@@ -1,8 +1,4 @@
 node_modules
 .DS_Store
 docs/_book
-<<<<<<< HEAD
-test
-=======
 test/
->>>>>>> develop
