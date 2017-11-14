@@ -1,5 +1,10 @@
+
 'use strict'
+<<<<<<< HEAD
+// Template version: 1.1.3
+=======
 // Template version: 1.2.1
+>>>>>>> develop
 // see http://vuejs-templates.github.io/webpack for documentation.
 
 const path = require('path')
